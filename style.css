@@ -1,0 +1,83 @@
+/* DOCUMENT CREATED BY :LINI */
+/* date:23/03/2021 */
+
+body {
+  background-color: #2a2b2c;
+  font-size: 30px;
+  color: #aeb6bf;
+  background-image: url("images/linibw.jpeg");
+  width: auto;
+  height: auto;
+  background-blend-mode: multiply;
+  border-radius: 10rem;
+  background-repeat: no-repeat;
+  /* background-position: right top; */
+  background-size: contain;
+  padding: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+img {
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  object-fit: cover;
+}
+h1,
+h3 {
+  color: #cf2804;
+}
+p span {
+  transition: width 2s, height 4s;
+}
+
+#menu-id01 {
+  float: right;
+  text-align: center;
+  font-size: medium;
+  color: #ffffff;
+}
+
+.page-cl01 {
+  padding: 1em;
+  text-align: center;
+  text-decoration: #6495ed;
+}
+/* Style the links inside the pill navigation menu */
+.menu-nav a {
+  display: inline-block;
+  color: #aeb6bf;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
+  font-size: 17px;
+  border-radius: 5px;
+}
+
+/* Change the color of links on mouse-over */
+.menu-nav a:hover {
+  /* background-color: #493A54 ; */
+  color: #aeb6bf;
+}
+
+/* Add a color to the active/current link */
+.menu-nav a.active {
+  /* background-color: #694980; */
+  color: #aeb6bf;
+}
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+  body {
+    font-size: 2em;
+  }
+  .menu-nav a {
+    display: inline-block;
+    color: #ffffff;
+    width: auto;
+    /* font-size: 15px; */
+  }
+}
