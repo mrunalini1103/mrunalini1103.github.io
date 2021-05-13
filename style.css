@@ -34,6 +34,13 @@ h3 {
 p span {
   transition: width 2s, height 4s;
 }
+.fa {
+  font-size: 50px !important;
+  color: #aeb6bf;
+}
+.fa-angle-up {
+  float: right;
+}
 
 #menu-id01 {
   float: right;
@@ -50,24 +57,27 @@ p span {
 /* Style the links inside the pill navigation menu */
 .menu-nav a {
   display: inline-block;
-  color: #aeb6bf;
+  color: #cf2804;
   text-align: center;
   padding: 14px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 30px;
   border-radius: 5px;
+  font-weight: bolder;
 }
 
 /* Change the color of links on mouse-over */
 .menu-nav a:hover {
   /* background-color: #493A54 ; */
-  color: #aeb6bf;
+  color: #c5263c;
+  font-weight: bolder;
 }
 
 /* Add a color to the active/current link */
 .menu-nav a.active {
   /* background-color: #694980; */
-  color: #aeb6bf;
+  color: #cf2804;
+  font-weight: bolder;
 }
 
 @media only screen and (min-width: 480px) and (max-width: 600px) {
@@ -76,8 +86,16 @@ p span {
   }
   .menu-nav a {
     display: inline-block;
-    color: #ffffff;
+    color: #cf2804;
     width: auto;
+    font-size: 17px;
+    font-weight: bolder;
     /* font-size: 15px; */
+  }
+  .menu-nav a.active {
+    /* background-color: #694980; */
+    color: #cf2804;
+    font-size: 17px;
+    font-weight: bolder;
   }
 }
