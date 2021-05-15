@@ -41,6 +41,10 @@ p span {
 .fa-angle-up {
   float: right;
 }
+.link_cl01 {
+  text-decoration: none;
+  color: rgb(193, 213, 214);
+}
 
 #menu-id01 {
   float: right;
