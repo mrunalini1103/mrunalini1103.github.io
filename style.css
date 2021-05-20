@@ -1,39 +1,30 @@
 /* DOCUMENT CREATED BY :LINI */
 /* date:23/03/2021 */
-
+/* body styling */
 body {
   background-color: #2a2b2c;
   font-size: 30px;
   color: #aeb6bf;
   background-image: url("images/linibw.jpeg");
-  width: auto;
   height: auto;
   background-blend-mode: multiply;
   border-radius: 10rem;
   background-repeat: no-repeat;
-  /* background-position: right top; */
   background-size: contain;
   padding: 30px;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-img {
-  max-width: 100%;
-  height: auto;
-}
-img {
-  float: left;
-  width: 200px;
-  height: 200px;
-  border-radius: 100px;
-  object-fit: cover;
-}
+
+/* heading*/
 h1,
 h3 {
   color: #cf2804;
 }
+/* style for paragraph */
 p span {
   transition: width 2s, height 4s;
 }
+/* style for icons */
 .fa {
   font-size: 50px !important;
   color: #aeb6bf;
@@ -41,18 +32,19 @@ p span {
 .fa-angle-up {
   float: right;
 }
+/* style for links */
 .link_cl01 {
   text-decoration: none;
   color: rgb(193, 213, 214);
 }
-
+/* nav menu styling */
 #menu-id01 {
   float: right;
   text-align: center;
   font-size: medium;
   color: #ffffff;
 }
-
+/* styling for para and headings */
 .page-cl01 {
   padding: 1em;
   text-align: center;
@@ -84,6 +76,7 @@ p span {
   font-weight: bolder;
 }
 
+/* media queries */
 @media only screen and (min-width: 480px) and (max-width: 600px) {
   body {
     font-size: 2em;
